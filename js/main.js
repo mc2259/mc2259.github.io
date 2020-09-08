@@ -162,25 +162,26 @@ jQuery(document).ready(function($) {
 			$('.nonloop-block-13').owlCarousel({
 		    center: false,
 		    items: 1,
-		    loop: false,
+		    loop: true,
 				stagePadding: 0,
-		    margin: 20,
+		    margin: 0,
+		    autoplay: true,
 		    nav: true,
 				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
 		    responsive:{
 	        600:{
-	        	margin: 20,
-	          items: 2
+	        	margin: 0,
+	          items: 1
 	        },
 	        1000:{
-	        	margin: 20,
+	        	margin: 0,
 	        	stagePadding: 0,
-	          items: 2
+	          items: 1
 	        },
 	        1200:{
-	        	margin: 20,
+	        	margin: 0,
 	        	stagePadding: 0,
-	          items: 3
+	          items: 1
 	        }
 		    }
 			});
@@ -234,61 +235,5 @@ jQuery(document).ready(function($) {
 
 	};
 	siteDatePicker();
-
-	var swiperSetting = function() {
-		var mySwiper = new Swiper ('.swiper-container', {
-	    // Optional parameters
-	    // direction: 'horizontal',
-	    // loop: true,
-
-	    // If we need pagination
-	    pagination: {
-	      el: '.swiper-pagination',
-	    },
-
-	    // Navigation arrows
-	    navigation: {
-	      nextEl: '.swiper-button-next',
-	      prevEl: '.swiper-button-prev',
-	    },
-	    mousewheel: {
-		  	invert: false,
-		  	forceToAxis: true,
-		  	releaseOnEdges: true,
-		  },
-
-		  // direction: 'vertical',
-		  freeMode: true,
-      // slidesPerView: 'auto',
-      spaceBetween: 30,
-      mousewheel: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-
-	    // And if we need scrollbar
-	    // scrollbar: {
-	    //   el: '.swiper-scrollbar',
-	    // },
-
-	    slidesPerView: 3,
-			breakpoints: {
-				668: {
-					slidesPerView: 1
-				},
-				1024: {
-					slidesPerView: 2 
-				}
-			},
-			// paginationClickable: false,
-			spaceBetween: 20,
-			// freeMode: true,
-			// grabCursor: true,
-			// mousewheelControl: true
-
-	  })
-	}
-	swiperSetting();
 
 });

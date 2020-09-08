@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 07/12/2018 03:18
+  	Creation date: 10/01/2019 02:03
   	*/
 
 @font-face {
@@ -24,8 +24,7 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  
-  font-style: normal;
+        font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
@@ -36,9 +35,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-camera:before { content: "\f100"; }
-.flaticon-picture:before { content: "\f101"; }
-.flaticon-sheep:before { content: "\f102"; }
-.flaticon-frame:before { content: "\f103"; }
-.flaticon-eiffel-tower:before { content: "\f104"; }
-.flaticon-video-play:before { content: "\f105"; }
+.flaticon-route:before { content: "\f100"; }
+.flaticon-airplane:before { content: "\f101"; }
+.flaticon-hotel:before { content: "\f102"; }
+.flaticon-sailboat:before { content: "\f103"; }
+.flaticon-ship:before { content: "\f104"; }
+.flaticon-ski:before { content: "\f105"; }
